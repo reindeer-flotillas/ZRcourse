@@ -1,0 +1,60 @@
+.topnav {
+    background-color: white;
+    font-family: 'Cambria';
+    height: 30px;
+    width: auto;
+    margin: 20px 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.topnav a:hover {
+    background-color: gray;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    margin: 20px 20px;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: gray;
+    border-color: gray;
+}
+  
+.dropdown-content {
+    position: relative;
+    color: black;
+    display: none;
+    padding: 20px;
+    width: 300px;
+    margin: 0px 20px;
+    background-color: #f1f1f1;
+    border-style: solid;
+    border-radius: 5px;
+    z-index: 1; 
+}
+  
+.dropdown-content a {
+    color: black;
+}
+  
+.dropdown-content a:hover {background-color: gray;}  
+
+.show {display:block;} 
+
+

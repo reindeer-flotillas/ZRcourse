@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "{{url_for('static', filename = 'ls_stylesheet.css')}}">
+        <script>
+            function buttonLoad(classID, dropID) {
+                document.getElementById(DropID).classList.toggle("show");
+                var elements = getElementsByClassName(ClassID); 
+                for(var i = 0; i < elements.length; i++){
+                    if(elements[i].style.visibility == "hidden"){
+                        elements[i].style.visibility = "visibile"
+                    } else {
+                        elements[i].style.visibility = "hidden"
+                    }
+                }    
+            }
+            //document.getElementById(DropID).classList.toggle("show");
+
+            function displayVideo(videoName) {
+                document.getElementById(videoName).classList.toggle("show")
+            } 
+        </script>    
+    </head>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+    <body>
+        <div class="topnav">
+            <a href="homepage.html">Home</a>
+            <a href="lessons.html">Lessons</a>
+        </div>
+        
+        <button class = "dropbtn" onclick = "buttonLoad(basic_content, buttonb);">Basic</button>
+        <div id = "buttonb" class = "dropdown-content">
+            <p></p>
+        </div>
+        
+        
+    </body>
+</html>

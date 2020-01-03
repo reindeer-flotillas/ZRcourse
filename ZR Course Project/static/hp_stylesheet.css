@@ -1,0 +1,41 @@
+.normal_div {
+    padding: 40px 40px;
+    margin: 20px 20px;
+    text-align: center; 
+    color: black;
+    height: 10px;
+    border: solid;
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+#div_36px {
+    font-size: 36px;
+}
+
+#div_12px {
+    font-size: 12px;
+}
+
+.topnav {
+    background-color: white;
+    font-family: 'Cambria';
+    height: 30px;
+    width: auto;
+    margin: 20px 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+.topnav a:hover {
+    background-color: gray;
+}
